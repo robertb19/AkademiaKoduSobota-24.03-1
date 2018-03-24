@@ -19,8 +19,8 @@ public class CarDataWrapper {
 	carDataWrapper.brand = in.nextLine();
 	System.out.println("Engine capacity: ");
 	carDataWrapper.engineCapacity = in.nextInt();
-	System.out.println("Power: ");
-	carDataWrapper.power = in.nextInt();
+
+	carDataWrapper.power = ourScanner("Power: ");
 	System.out.println("Color: ");
 	carDataWrapper.color = in.nextLine();
 	System.out.println("Model ");
